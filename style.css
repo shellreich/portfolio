@@ -1,0 +1,77 @@
+/*  To be consistent in all browsers */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(128, 0, 128, 0.042);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: cursive, georgia, serif;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-size: 45px;
+  text-align: center;
+  }
+
+/*  pseudo-classes - colors for states of links */
+a:link    { color: purple;  }
+a:visited { color: red;   }
+a:hover   { color: rgb(30, 56, 206); }
+a:active  { color: rgb(20, 231, 13);  }
+
+.profile {
+  border: 5px solid purple;
+  border-radius: 10px;
+   }
+
+
+h2, h3 {
+  font-family: cursive, georgia, serif;
+  text-align: center;
+}
+
+
+/*  added spacing in between */
+
+div {
+  padding: 10px;
+  border: 10px;
+  text-align: center;
+}
+
+hr {
+  width: 420px;
+	height: 5px;
+	border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+	background-image: url("images/rainbowline.gif");
+}
+
+
+p {
+  text-align: left;
+  font-family: "sans-serif", Times, serif;
+  line-height: 25px;
+}
+
+/*  indents the lists and push to left to start near the start of the hr to balance text */
+.list {
+  text-align: left;
+  margin-left: 130px;
+}
+
+section, article {
+  margin: 0px 50px;
+}
+
+footer p {
+  padding: 20px;
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
