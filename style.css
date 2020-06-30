@@ -5,8 +5,7 @@
 
 body {
   background-color: rgba(128, 0, 128, 0.042);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  }
 
 h1 {
   font-family: cursive, georgia, serif;
@@ -28,7 +27,7 @@ a:active  { color: rgb(20, 231, 13);  }
    }
 
 
-h2, h3 {
+h2, h3, h4 {
   font-family: cursive, georgia, serif;
   text-align: center;
 }
@@ -52,13 +51,14 @@ hr {
 }
 
 
-p {
+p, li {
   text-align: left;
   font-family: "sans-serif", Times, serif;
-  line-height: 25px;
+  line-height: 30px;
+  font-size: 18px;
 }
 
-/*  indents the lists and push to left to start near the start of the hr to balance text */
+/*  indents the lists to push left to start near the start of the hr line to balance text */
 .list {
   text-align: left;
   margin-left: 130px;
@@ -74,4 +74,5 @@ footer p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-}
+  width: 950px;
+  }
