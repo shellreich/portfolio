@@ -8,12 +8,10 @@ body {
   }
 
 h1 {
-  font-family: cursive, georgia, serif;
   letter-spacing: 1px;
   font-style: italic;
   font-size: 45px;
-  text-align: center;
-  }
+   }
 
 /*  pseudo-classes - colors for states of links */
 a:link    { color: purple;  }
@@ -26,15 +24,14 @@ a:active  { color: rgb(20, 231, 13);  }
   border-radius: 10px;
    }
 
-
-h2, h3, h4 {
+/*  all headers will have same font and centered */
+h1, h2, h3, h4 {
   font-family: cursive, georgia, serif;
   text-align: center;
 }
 
 
 /*  added spacing in between */
-
 div {
   padding: 10px;
   border: 10px;
@@ -50,12 +47,11 @@ hr {
 	background-image: url("images/rainbowline.gif");
 }
 
-
 p, li {
   text-align: left;
   font-family: "sans-serif", Times, serif;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /*  indents the lists to push left to start near the start of the hr line to balance text */
